@@ -2,11 +2,14 @@
 
 a = []
 s = input()
-i = 0
 while s != "end":
-   a.append(int(s))
+   s = int(s)
+   if s % 2 == 0:
+      print(s)
+   else:
+      a.append(s)
    s = input()
-n = int(input())
+i = 0
 while i < len(a):
-   print(a[i] + n)
+   print(a[i])
    i = i + 1

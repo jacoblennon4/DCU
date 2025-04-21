@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-i = 0
 s = input()
-
+i = 0
 while i < len(s):
-   print(s[i:])
+   print(int(s[i]) * "*")
    i = i + 1

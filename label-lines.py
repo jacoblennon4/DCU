@@ -4,9 +4,10 @@ a = []
 s = input()
 i = 0
 while s != "end":
-   a.append(int(s))
+   a.append(s)
    s = input()
-n = int(input())
+total_lines = len(a)
+i = 0
 while i < len(a):
-   print(a[i] + n)
+   print(i, total_lines, a[i])
    i = i + 1
